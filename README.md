@@ -1,6 +1,10 @@
-# WebDL #
+# AusTV-WebDL #
 
-WebDL is a set of Python scripts to grab video from online Free To Air Australian channels.
+Forked from DELX-WEBDL these are a set of Python scripts to grab video from online Free To Air Australian channels.
+
+All channels currently work with the execption of Channel 7. 
+
+Feel free to help out and get this working
 
 ## Requirements
 
@@ -24,13 +28,3 @@ Warning, this is untested!
 
     brew install python3 ffmpeg
     pip3 install livestreamer pycrypto lxml
-
-### Then get WebDL itself
-    hg clone https://bitbucket.org/delx/webdl
-    cd webdl
-    python3 ./grabber.py
-
-
-## Bug reports
-
-Log an issue on the [Bitbucket project](https://bitbucket.org/delx/webdl/issues?status=new&status=open)
